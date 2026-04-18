@@ -1,0 +1,22 @@
+.pio/
+.vscode/
+*.orig
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+.ccls-cache/
+.DS_Store
+*.swp
+*~
+
+# Third-party assets excluded pending license confirmation
+data/chars/bufo/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+.ccls-cache/
+.DS_Store
+*.swp
+*~
