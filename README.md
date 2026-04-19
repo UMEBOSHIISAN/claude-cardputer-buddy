@@ -1,7 +1,10 @@
 # Claude Cardputer Buddy
 
-Unofficial firmware adaptation of Anthropic's `claude-desktop-buddy` reference implementation,
-reworked for the M5Stack Cardputer (ESP32-S3 with built-in QWERTY keyboard).
+An independent Cardputer-focused fork of Anthropic's [`claude-desktop-buddy`](https://github.com/anthropics/claude-desktop-buddy), redesigned for the M5Stack Cardputer's built-in QWERTY keyboard and device-specific UX.
+
+This project preserves the upstream BLE desk buddy concept while adapting the firmware, input model, and interaction flow for Cardputer hardware.
+
+Character / artwork assets are not included by default unless their license is explicitly confirmed. See `THIRD_PARTY_ASSETS.md`.
 
 ## Attribution
 
