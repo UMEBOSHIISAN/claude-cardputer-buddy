@@ -10,8 +10,9 @@
 *.swp
 *~
 
-# Third-party assets excluded pending license confirmation
+# Character/art assets excluded pending license/provenance confirmation
 data/chars/bufo/
+data/chars/claude/
 .pioenvs/
 .piolibdeps/
 .clang_complete
