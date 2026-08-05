@@ -1,6 +1,6 @@
 # Claude Cardputer Buddy
 
-An independent Cardputer-focused fork of Anthropic's [`claude-desktop-buddy`](https://github.com/anthropics/claude-desktop-buddy), redesigned for the M5Stack Cardputer's built-in QWERTY keyboard and device-specific UX.
+An independent Cardputer-focused adaptation of Anthropic's [`claude-desktop-buddy`](https://github.com/anthropics/claude-desktop-buddy), redesigned for the M5Stack Cardputer's built-in QWERTY keyboard and device-specific UX.
 
 This project preserves the upstream BLE desk buddy concept while adapting the firmware, input model, and interaction flow for Cardputer hardware.
 
@@ -16,7 +16,7 @@ reworked for M5Stack Cardputer-specific hardware, input handling, and firmware b
 |---|---|---|
 | Scope | Reference / example | Cardputer-targeted port |
 | License | MIT | MIT (code only — see below) |
-| Relationship | Original | Independent fork |
+| Relationship | Original | Independent adaptation |
 
 **Code:** MIT License — see `LICENSE`  
 **Third-party assets:** See `THIRD_PARTY_ASSETS.md`
@@ -30,7 +30,7 @@ reworked for M5Stack Cardputer-specific hardware, input handling, and firmware b
 | Display | 135×240 | 240×135 (same size, rotated) |
 | Power | AXP192 | M5Cardputer Power API |
 | Input | 2 buttons | QWERTY keyboard |
-| IMU | Accelerometer (shake) | Present, unused (extensible) |
+| IMU | Accelerometer (shake) | Not required by this firmware |
 
 ## BLE Protocol (same as upstream)
 
@@ -70,7 +70,14 @@ See `THIRD_PARTY_ASSETS.md` for details.
 
 ## Build & Flash
 
+Requirements: M5Stack Cardputer, USB-C data cable, and
+[PlatformIO Core](https://docs.platformio.org/en/latest/core/installation/index.html).
+
 ```bash
+# Clone and enter the repository
+git clone https://github.com/UMEBOSHIISAN/claude-cardputer-buddy.git
+cd claude-cardputer-buddy
+
 # Compile + flash firmware
 pio run --target upload
 
