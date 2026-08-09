@@ -157,7 +157,7 @@ data/chars/
     celebrate.gif  sleep.gif  dizzy.gif  heart.gif
 ```
 
-> ⚠️ **No third-party character assets are bundled unless their license is explicitly confirmed.** Read [`THIRD_PARTY_ASSETS.md`](THIRD_PARTY_ASSETS.md) before adding artwork, redistributing, or forking — it documents both the current exclusions and a known limitation regarding this repository's git history. Bring your own art, or let the firmware render the states as shapes.
+> ⚠️ **No third-party character artwork is bundled here.** The upstream project's `characters/bufo/` sprites are explicitly outside its MIT grant — cloning an MIT repository does not license you its artwork. See [`THIRD_PARTY_ASSETS.md`](THIRD_PARTY_ASSETS.md) before adding art, redistributing, or forking. The pixel-art robot sprites referenced by this firmware are original work by this repository's author and carry the project's MIT licence.
 
 ---
 
