@@ -20,7 +20,21 @@ An independent Cardputer-focused adaptation of Anthropic's [`claude-desktop-budd
 
 The buddy shows what your Claude Code sessions are doing — and when one of them asks for permission, **it says so before it says anything else**, and you answer with a physical key.
 
-Character / artwork assets are not included by default unless their license is explicitly confirmed. See [`THIRD_PARTY_ASSETS.md`](THIRD_PARTY_ASSETS.md).
+<table>
+<tr>
+  <td align="center"><img src="data/chars/claude/sleep.gif" width="96"><br><sub>sleep</sub></td>
+  <td align="center"><img src="data/chars/claude/idle_0.gif" width="96"><br><sub>idle</sub></td>
+  <td align="center"><img src="data/chars/claude/busy.gif" width="96"><br><sub>busy</sub></td>
+  <td align="center"><img src="data/chars/claude/attention.gif" width="96"><br><sub><b>attention</b></sub></td>
+  <td align="center"><img src="data/chars/claude/celebrate.gif" width="96"><br><sub>celebrate</sub></td>
+  <td align="center"><img src="data/chars/claude/dizzy.gif" width="96"><br><sub>dizzy</sub></td>
+  <td align="center"><img src="data/chars/claude/heart.gif" width="96"><br><sub>heart</sub></td>
+</tr>
+</table>
+
+The fourth one is the one that matters. **`attention` outranks every other state** — a session blocked on your approval never hides behind a session that is merely busy. Nine `idle_*` frames animate while nothing needs you.
+
+The sprites above ship in this repository under the project's MIT licence. The upstream project's `characters/bufo/` artwork is **not** redistributed here: its LICENSE places it outside the MIT grant. See [`THIRD_PARTY_ASSETS.md`](THIRD_PARTY_ASSETS.md) before adding artwork of your own.
 
 ---
 

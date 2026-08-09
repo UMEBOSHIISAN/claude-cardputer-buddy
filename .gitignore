@@ -10,9 +10,10 @@
 *.swp
 *~
 
-# Character/art assets excluded pending license/provenance confirmation
+# Third-party artwork. The upstream LICENSE places characters/bufo/ outside its
+# MIT grant, with all rights retained by the original creators, so it is never
+# redistributed from here. See THIRD_PARTY_ASSETS.md.
 data/chars/bufo/
-data/chars/claude/
 .pioenvs/
 .piolibdeps/
 .clang_complete
